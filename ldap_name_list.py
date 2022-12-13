@@ -29,7 +29,7 @@ for m in members_list:
         if item_member in full_name_user:
             my_member_list.append(str(m.cn))
 
-with open('ibases.v8i', 'r') as file_1c_open:
+with open('base.txt', 'r') as file_1c_open:
     file_read = file_1c_open.read()
     print(file_read)
 
